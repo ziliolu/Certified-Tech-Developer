@@ -17,3 +17,4 @@ Checkpoint 2
         - utilizar localStorage (?)
 
 3) pagina de tarefas 
+    - item exemplo

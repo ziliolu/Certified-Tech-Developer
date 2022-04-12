@@ -16,6 +16,8 @@ form2.addEventListener('submit', function(event){
         password: password
     }
 
+
+
     //REQUEST pedido
     const promise = fetch("https://ctd-todo-api.herokuapp.com/v1/users", {
     method: "POST",
@@ -31,44 +33,13 @@ form2.addEventListener('submit', function(event){
       return response.json();
     })
     .then(function (userToken) {
-      var tokenForTask = localStorage.setItem
-      console.log(userToken);
+      localStorage.setItem("token", userToken.jwt)
     })
     .catch(function (err) {
       console.log(err);
     });
 
 });
-
-const addTask = function(){
-  const url = "https://ctd-todo-api.herokuapp.com/v1/tasks";
-  const token = tokenForTask
-  const task = {
-    description: "estudar CSS",
-    completed:  false
-  }
-
-  const promisse = fetch(url, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      authorization: token
-    },
-    body: JSON.stringify(task)
-  });
-
-  promisse
-    .then(function (response) {
-      return response.json();
-    })
-    .then(function (taskPromisse) {
-      console.log(taskPromisse);
-    })
-    .catch(function (err) {
-      console.log(err);
-    });
-};
-
 
 
 

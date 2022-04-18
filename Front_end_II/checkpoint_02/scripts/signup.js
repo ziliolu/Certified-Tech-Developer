@@ -16,8 +16,10 @@ form.addEventListener('submit', function(event){
         password: password
     }
 
+
+
     //REQUEST pedido
-    const promise = fetch("https://ctd-todo-api.herokuapp.com/users", {
+    const promise = fetch("https://ctd-todo-api.herokuapp.com/v1/users", {
     method: "POST",
     headers: {
       "Content-type": "application/json"
@@ -30,13 +32,16 @@ form.addEventListener('submit', function(event){
     .then(function (response) {
       return response.json();
     })
-    .then(function (afterResponse) {
-      console.log(afterResponse);
+    .then(function (userToken) {
+      localStorage.setItem("token", userToken.jwt)
     })
     .catch(function (err) {
       console.log(err);
     });
 
 });
+
+
+
 
 

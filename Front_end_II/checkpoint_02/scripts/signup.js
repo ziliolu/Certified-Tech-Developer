@@ -1,6 +1,6 @@
-const form2 = document.querySelector('#register');
+const form = document.querySelector('#register');
 
-form2.addEventListener('submit', function(event){
+form.addEventListener('submit', function(event){
   event.preventDefault();
 
   const name = document.querySelector('#name').value;
@@ -17,7 +17,7 @@ form2.addEventListener('submit', function(event){
     }
 
     //REQUEST pedido
-    const promise = fetch("https://ctd-todo-api.herokuapp.com/v1/tasks", {
+    const promise = fetch("https://ctd-todo-api.herokuapp.com/users", {
     method: "POST",
     headers: {
       "Content-type": "application/json"

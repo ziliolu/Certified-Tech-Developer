@@ -16,29 +16,18 @@ form.addEventListener('submit', function(event){
         password: password
     }
 
-
-
-    //REQUEST pedido
-    const promise = fetch("https://ctd-todo-api.herokuapp.com/v1/users", {
-    method: "POST",
-    headers: {
-      "Content-type": "application/json"
-    },
-    body: JSON.stringify(data)
-  });
+  //REQUEST pedido
+    const promise = window.chamadaApi('users', 'POST', undefined, data)
 
   //RESPONSE
   promise
-    .then(function (response) {
-      return response.json();
-    })
     .then(function (userToken) {
       localStorage.setItem("token", userToken.jwt)
+      window.location.href = 'tasks.html'
     })
     .catch(function (err) {
       console.log(err);
     });
-
 });
 
 

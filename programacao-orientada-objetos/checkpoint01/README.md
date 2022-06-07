@@ -11,7 +11,7 @@
 ## <a name=“project-description”>🧾Descrição do projeto<a/> 
   
 <p align="justify">
-O projeto é voltado à avaliação inicial da disciplina de Programação Orientada a Objetos do curso Certified Tech Developer da Digital House Brasil em parceria com o Mercado Livre e a Globant. Seu principal objetivo é a prática dos conceitos inicias da linguagem Java e a criação de classes e seus relacionamentos.<br/><br/>
+O projeto é voltado à avaliação inicial da disciplina de Programação Orientada a Objetos do curso Certified Tech Developer da Digital House Brasil em parceria com o Mercado Livre e a Globant. Seu principal objetivo é a prática dos conceitos inicias da linguagem Java, através da criação de classes e seus relacionamentos.<br/><br/>
 
 <p align="justify">
 <b>Cenário da problemática:</b><br/> 

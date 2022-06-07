@@ -1,11 +1,10 @@
 <div id="top"></div>
 <h1 align="center"> PLATAFORMA DE RECICLAGEM </h1> 
 
+ <p align="center">
+  <img src="https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/2qnkRaHx/CTD.jpg" width="250" alt="Logo do curso Certified Tech Developer, escrito em preto com detalhes em lilás e azul turquesa">
 </p>
-<p align="center">
- <img src="https://img.shields.io/badge/STATUS-IMPROVING-yellow">
-</p> 
-
+ 
 > Status do projeto: 🟡 Em desenvolvimento
 
 ## <a name=“project-description”>🧾Descrição do projeto<a/> 
@@ -21,6 +20,4 @@ Segundo dados da International Solid Waste Association (ISWA), somente 4% dos re
 <b>Cenário da aplicação:</b><br/> 
 O cenário da aplicação consiste na ligação inicial entre membros que atuam diretamente no processo de reciclagem, como cooperativas de reciclagem, pessoas cooperadas, empresas compradoras de materiais recicláveis e os materiais recicláveis que são aceitos por estas, em um programa capaz de facilitar a comunicação direta entre compradores e vendedores, efetuar a venda instantânea e armazenar dados importantes. A tabela de preços dos materiais utilizada na aplicação está baseada nos preços do ano de 2020 estabelecida pela empresa brasileira “Bobton Reciclagem”, a fim de uma aproximação com a cotação real dos materiais.
 
- <p align="center">
-  <img src="https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/2qnkRaHx/CTD.jpg" width="350" alt="accessibility text">
-</p>
+

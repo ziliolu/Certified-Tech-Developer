@@ -21,3 +21,6 @@ Segundo dados da International Solid Waste Association (ISWA), somente 4% dos re
 <b>Cenário da aplicação:</b><br/> 
 O cenário da aplicação consiste na ligação inicial entre membros que atuam diretamente no processo de reciclagem, como cooperativas de reciclagem, pessoas cooperadas, empresas compradoras de materiais recicláveis e os materiais recicláveis que são aceitos por estas, em um programa capaz de facilitar a comunicação direta entre compradores e vendedores, efetuar a venda instantânea e armazenar dados importantes. A tabela de preços dos materiais utilizada na aplicação está baseada nos preços do ano de 2020 estabelecida pela empresa brasileira “Bobton Reciclagem”, a fim de uma aproximação com a cotação real dos materiais.
 
+ <p align="center">
+  <img src="https://www.digitalhouse.com/br/landing/certified-tech-developer-baixar-programa-b?utm_[%E2%80%A6]_2021&utm_content=ctd_vendas_set_2021_youtube_spot1_einerd" width="350" alt="accessibility text">
+</p>

@@ -1,7 +1,5 @@
 <h1 align="center"> PLATAFORMA DE RECICLAGEM </h1> 
-
-<div id="top"></div>
- <p align="center">
+<p align="right">
   <img src="https://s3-eu-west-1.amazonaws.com/landingi-editor-uploads/2qnkRaHx/CTD.jpg" width="300" alt="Logo do curso Certified Tech Developer, escrito em preto com detalhes em lilás e azul turquesa">
 </p>
  

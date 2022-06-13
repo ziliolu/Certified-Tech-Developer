@@ -36,7 +36,7 @@ public class CooperativaReciclagem {
         }
     }
 
-    protected double calcDivisaoLucrosCooperativa(){
+    public double calcDivisaoLucrosCooperativa(){
         double divisaoBonusMensal = (getValorTotalMensal()/getQtdCooperados());
         BigDecimal bd = new BigDecimal(divisaoBonusMensal).setScale(1, RoundingMode.HALF_EVEN); //para arredondar número decimal (1 casa)
         return bd.doubleValue(); //para retornar valor do tipo double

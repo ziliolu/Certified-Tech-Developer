@@ -18,7 +18,7 @@ public class Cooperado {
     }
 
     //métodos
-    protected double calcBonusMensalCooperado(){
+    public double calcBonusMensalCooperado(){
         double salarioComBonus = this.salario + this.cooperativa.calcDivisaoLucrosCooperativa();
         return salarioComBonus;
     }

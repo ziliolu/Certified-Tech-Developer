@@ -20,3 +20,4 @@ Segundo dados da International Solid Waste Association (ISWA), somente 4% dos re
 O cenário da aplicação consiste na ligação inicial entre membros que atuam diretamente no processo de reciclagem, como cooperativas de reciclagem, pessoas cooperadas, empresas compradoras de materiais recicláveis e os materiais recicláveis que são aceitos por estas, em um programa capaz de facilitar a comunicação direta entre compradores e vendedores, efetuar a venda instantânea e armazenar dados importantes. A tabela de preços dos materiais utilizada na aplicação está baseada nos preços do ano de 2020 estabelecida pela empresa brasileira “Bobton Reciclagem”, a fim de uma aproximação com a cotação real dos materiais.
 
 ## <a name=“project-description”> 💻Diagrama UML<a/> 
+![Checkpoint 1  (1)](https://user-images.githubusercontent.com/86267379/173423165-61e7b664-64fb-4ee3-8978-51f386c7712d.png)
